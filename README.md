@@ -32,7 +32,7 @@
 - 主ブランチに直接書き込まず、プルリクエストを出す。AI が作ったものにはラベル `AI作成` を付ける。
 - 事実には出典を添える。出典を示せない事実は仮説として扱う（ハブの判断記録 [0004](https://github.com/nobeyama-radio-observatory/nro-context/blob/main/decisions/0004-事実の根拠は出典で示す.md)）。
 
-担当：未定（決まるまでは、ハブの担当が預かる）
+担当：計算機グループ（[聞き取り 2026-11-18](https://github.com/nobeyama-radio-observatory/nro-data/blob/main/interviews/2026-11-18.md) 問1）
 
 ## 利用許諾
 
