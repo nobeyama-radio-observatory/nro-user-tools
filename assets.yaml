@@ -1,0 +1,75 @@
+# 資産の台帳：利用者向けのツール
+# 項目の定義はハブの assets/README.md を参照。
+#   https://github.com/nobeyama-radio-observatory/nro-context/blob/main/assets/README.md
+# 2026-11-18 に新しく作った（判断記録 0006）。40周年記念誌から AI が埋めた。未記入は聞き取り（interviews/）で埋める。
+#
+# 接続先、ネットワーク構成、アクセスの方式、ソフトウェアの構成部品と版など、制御と情報セキュリティの詳細は書かない。
+# この台帳にない id の置き場所は、ハブの assets/README.md の資産の索引で引ける。
+#
+# 出典の略記
+#   40周年記念誌：『野辺山宇宙電波観測所40周年記念誌』2022年2月（国立国会図書館 請求記号 MB12-M7）。p.N はそのページ。
+#     書誌の詳細はハブの history/README.md の出典の略記。年次報告と食い違うときは年次報告を採る
+#   聞き取りYYYY-MM-DD(-n) 問N：interviews/YYYY-MM-DD(-n).md の問N
+
+- id: tool-obs-script
+  name: 観測指示書の作成ソフト
+  kind: ソフトウェア
+  status: 運用中
+  introduced: 未記入
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 名称：所内の相談（2026-11-18）
+  note: 指示書は、アンテナのスキャンやデータの取得のタイミングなどを示した一連の命令で、COSMOS のマネージャーが読み込んで各装置に送る（40周年記念誌 p.56）
+
+- id: tool-newstar
+  name: NEWSTAR（ポジションスイッチ観測のデータ解析）
+  kind: ソフトウェア
+  status: 運用中
+  introduced: 1980年代末に、ミリ波干渉計と 45m 鏡の統合解析システムとして作られた
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 解析の主力は今後 CASA に移るが、使い続けられる見込み（40周年記念誌 p.60）
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 40周年記念誌 p.60
+
+- id: tool-nostar
+  name: NOSTAR（OTF 観測のデータ解析）
+  kind: ソフトウェア
+  status: 運用中
+  introduced: 2000年代に、OTF 観測の導入に合わせて作られた
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 解析の主力は今後 CASA に移るが、使い続けられる見込み（40周年記念誌 p.60）
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 40周年記念誌 p.60
+
+- id: tool-cont
+  name: cont（連続波のデータ解析）
+  kind: ソフトウェア
+  status: 運用中
+  introduced: 2013年の計算機の更新に合わせて、Python のスクリプトに書き換えた
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 未記入
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 40周年記念誌 p.60
+
+- id: tool-casa-export
+  name: CASA の形式への書き出しとパイプライン処理
+  kind: ソフトウェア
+  depends_on: [db-radio-archive]
+  status: 運用中
+  introduced: 観測後のデータを CASA（アルマの解析システム）の入力の形式で書き出す機能が稼働している。アーカイブと連携し、CASA のパイプライン処理を使える。2021年度にパイプライン処理のデータの公開を始めた
+  maintenance: {by: 未記入, condition: 未記入, effort: 未記入}
+  renewal: 解析の主力は今後 CASA に移る（40周年記念誌 p.60）
+  owner_role: 未定
+  maintainers: 未記入
+  sources:
+    - 40周年記念誌 p.57、p.60
+  note: CASA そのものはアルマの解析システムで、観測所の資産ではない。依存先の db-radio-archive が記念誌のデータアーカイブと同じものかは未確認
