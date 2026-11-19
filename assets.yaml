@@ -13,6 +13,8 @@
 #   聞き取り2026-11-18 問N：nro-data の interviews/2026-11-18.md の問N（データの保管と続けて聞いたため、記録は nro-data にだけ置く）
 #     https://github.com/nobeyama-radio-observatory/nro-data/blob/main/interviews/2026-11-18.md
 #   連続波の聞き取り2026-11-18 問N：nro-45m-if の interviews/2026-11-18.md の問N
+#
+# maintenance.by の「メーカー」は、ソフトウェアを作成した外部の事業者を含む
 
 - id: tool-obs-script
   name: 観測指示書の作成ソフト（nobs）
@@ -28,7 +30,7 @@
     - 便利ツール（仰角と回転角、観測点の確認） https://www.nro.nao.ac.jp/projects/45m/observations/manuals-2/
     - 7BEE の観測指示書の作り方（nobs が未対応のための回避） https://www.nro.nao.ac.jp/projects/7bee/7bee-obsfile/ （2026-11-19 に確認）
   sources:
-    - 名称：所内の相談（2026-11-18）、聞き取り2026-11-18 問5
+    - 名称：聞き取り2026-11-18 問5
     - 導入、保守、担い手の数、更新の見込み：聞き取り2026-11-18 問5
     - 連続波のモードへの対応：連続波の聞き取り2026-11-18 問4
     - 担当：聞き取り2026-11-18 問1
