@@ -13,7 +13,7 @@
 ```
 
 - **このリポジトリが正本のもの：** 台帳（構成、依存関係、提供の状態、保守の状況、更新の見込み、担い手の数）、運用と保守の文書、聞き取りの記録。
-- **製品と開発のリポジトリ：** いまはありません。
+- **製品と開発のリポジトリ：** 観測系のインターフェース仕様の [nro45-interfaces](https://github.com/nobeyama-radio-observatory/nro45-interfaces)（ハブの判断記録 0013）と、観測指示書の書き換えの開発の [tz230-firstlight](https://github.com/ars096/tz230-firstlight)。台帳の `repos` から参照します。
 
 ## 中身
 
