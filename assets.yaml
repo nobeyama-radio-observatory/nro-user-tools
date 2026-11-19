@@ -25,6 +25,9 @@
   renewal: 新しい受信機に対応する改修が必要。連続波の科学観測のモード（nro-45m-continuum の be-continuum-2026）を公開するなら、そのモードへの対応も要る。GUI を web UI にしたい。ソフトウェアはどれも古くなっており、AI を使って使い勝手のよいものに更新したい（聞き取り2026-11-18 問7）
   owner_role: 計算機グループ
   maintainers: 0
+  repos:
+    - {name: nro45-interfaces, url: https://github.com/nobeyama-radio-observatory/nro45-interfaces}
+    - {name: tz230-firstlight, url: https://github.com/ars096/tz230-firstlight}
   docs:
     - nobs の使い方（各タブの説明への入口） https://www.nro.nao.ac.jp/projects/45m/observations/nobs/
     - 便利ツール（仰角と回転角、観測点の確認） https://www.nro.nao.ac.jp/projects/45m/observations/manuals-2/
